@@ -15,5 +15,9 @@ EditorBuildSettings:
     path: Assets/FlutterUnityIntegration/Demo/Scenes/NativeScene.unity
     guid: 93c501e08eb4d4ac2a924b592f00449b
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 38a73aafe678e428ea20220f1cecb8f7,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 853ac6e93b6714b71808cd208fb40969,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5abb7bf5775754c349ee756010a3a1fd,
       type: 2}

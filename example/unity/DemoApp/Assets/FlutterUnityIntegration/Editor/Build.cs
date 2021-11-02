@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -48,7 +48,9 @@ public class Build : EditorWindow
 
         EditorUserBuildSettings.androidBuildSystem = AndroidBuildSystem.Gradle;
 
-        var options = BuildOptions.AcceptExternalModificationsToPlayer;
+        //var options = BuildOptions.AcceptExternalModificationsToPlayer;
+var options = BuildOptions.AllowDebugging;
+    EditorUserBuildSettings.exportAsGoogleAndroidProject = true;
         var report = BuildPipeline.BuildPlayer(
             GetEnabledScenes(),
             apkPath,
